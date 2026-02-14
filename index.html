@@ -1,24 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-T828FM83');</script>
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-T828FM83');</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University of Data - Open Day 2026</title>
-    </head>
+    
+    <style>
+        /* 1. Basic Reset & Fonts */
+        body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f4f9; color: #333; }
+        
+        /* 2. Navigation Bar */
+        header { background-color: #003366; padding: 20px; color: white; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: bold; letter-spacing: 1px; }
+        nav a { color: #ccc; text-decoration: none; margin-left: 20px; font-size: 0.9rem; }
+        nav a:hover { color: white; }
+
+        /* 3. Hero Section (The Big Banner) */
+        .hero { background: linear-gradient(135deg, #003366 0%, #00509e 100%); color: white; padding: 100px 20px; text-align: center; }
+        .hero h1 { margin: 0 0 20px; font-size: 3rem; }
+        .hero p { font-size: 1.2rem; margin-bottom: 40px; opacity: 0.9; }
+
+        /* 4. The "Call to Action" Button (Your Tracker) */
+        .cta-button {
+            background-color: #ffcc00; /* University Gold */
+            color: #003366;
+            padding: 15px 40px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            transition: background 0.3s;
+            display: inline-block;
+        }
+        .cta-button:hover { background-color: #e6b800; cursor: pointer; }
+
+        /* 5. Footer & Test Links */
+        .container { max-width: 800px; margin: 50px auto; text-align: center; padding: 20px; }
+        .test-links { margin-top: 50px; border-top: 1px solid #ddd; padding-top: 20px; font-size: 0.9rem; color: #666; }
+        .test-links a { color: #00509e; }
+    </style>
+</head>
 <body>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T828FM83"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <h1>Welcome to the University of Data</h1>
-    <p>Please note this is a test page I've set up to learn Google Analytics and Tag Manager.</p>
-    
-    <a href="/prospectus_2026.pdf" class="download-btn" id="prospectus-link">
-        Download 2026 Prospectus (PDF)
-    </a>
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <header>
+        <div class="logo">UNIVERSITY OF DATA</div>
+        <nav>
+            <a href="#">Courses</a>
+            <a href="#">Research</a>
+            <a href="#">Admissions</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
 
-    <br><br>
-    <a href="https://google.com">Go to Google (Don't track this)</a>
+    <div class="hero">
+        <h1>Shape the Future with Analytics.</h1>
+        <p>Join our world-class data science programme. Applications for 2026 are now open.</p>
+        
+        <a href="/prospectus_2026.pdf" class="cta-button" id="prospectus-link">
+            Download 2026 Prospectus (PDF)
+        </a>
+    </div>
+
+    <div class="container">
+        <h2>Why Study with Us?</h2>
+        <p>We combine hands-on technical training with real-world business strategy. Our graduates go on to lead data teams at top global firms.</p>
+        
+        <div class="test-links">
+            <p><strong>-- Analytics Testing Area --</strong></p>
+            <p>Use this link to test your "Negative" triggers (this should NOT fire the tag):</p>
+            <a href="https://google.com" target="_blank">Go to Google (External Link)</a>
+        </div>
+    </div>
 </body>
 </html>
